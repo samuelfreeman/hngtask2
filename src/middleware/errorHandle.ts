@@ -8,6 +8,7 @@ const errorHandler = (
     next: NextFunction
 ) => {
     if (error instanceof CustomError) {
+        console.error(error)
         res.status(error.status).json({ message: error.message });
     } else {
         console.error('Unhandled Error:', error);
