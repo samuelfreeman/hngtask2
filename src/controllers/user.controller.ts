@@ -26,6 +26,7 @@ export const register = async (req: Request, res: Response, next: NextFunction) 
             }
         })
     } catch (error) {
+        console.log(error)
         res.status(400).json({
             status: "Bad request",
             message: "Registration unsuccessfull!",
