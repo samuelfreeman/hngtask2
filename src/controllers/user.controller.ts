@@ -31,6 +31,7 @@ export const register = async (req: Request, res: Response, next: NextFunction) 
             status: "Bad request",
             message: "Registration unsuccessfull!",
             statusCode: 400,
+            error: error
         });
     }
 }
