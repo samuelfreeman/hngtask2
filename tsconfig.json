@@ -1,18 +1,18 @@
 {
     "compilerOptions": {
-      "target": "ES6", // Specify the ECMAScript target version
-      "module": "commonjs", // Use CommonJS module code generation
-      "moduleResolution": "node", // Use Node.js module resolution
-      "baseUrl": "src", // Base directory to resolve non-absolute module names
-      "outDir": "dist", // Directory to output the compiled files
-      "sourceMap": true, // Generate corresponding .map files
-      "noImplicitAny": true, // Raise error on expressions and declarations with an implied 'any' type
-      "strict": true, // Enable all strict type-checking options
-      "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
-      "skipLibCheck": true, // Skip type checking of all declaration files (.d.ts)
-      "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
-      "resolveJsonModule": true, // Include modules imported with .json extension
-      "typeRoots": ["./node_modules/@types", "./src/types"] // Specify the types folder locations
+      "target": "ES6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "baseUrl": "src",
+      "outDir": "dist",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "typeRoots": ["./node_modules/@types", "./src/types"]
     },
     "include": ["src/**/*.ts", "index.ts"],
     "exclude": ["node_modules", "dist"]
